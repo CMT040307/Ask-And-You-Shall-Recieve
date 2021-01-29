@@ -56,6 +56,8 @@ def master():
                 print("Sorry, I don't understand please try again")
                 calc()
         calc()
+    elif ask.lower() == "favourite game":
+        print("Minecraft or Roblox")
     else:
         print("I don't understand, please read the command list. Thanks")
 

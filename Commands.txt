@@ -9,13 +9,13 @@ program but it is up to you. Here are the commands:
 Wifi Password
 Creator
 Favourite Website
-Favourite Drink
+Favourite Drink and Flavours
 Favourite Word
 Favourite Food
 Monster Drink Flavours
 Favourite Thing To Do
 Test 001
-Repeat
+Annoying Repeat
 Favourite Parent
 Chicken
 Fast Food

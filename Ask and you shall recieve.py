@@ -6,8 +6,26 @@ def master():
         print("The creator of this file is CT")
     elif ask.lower() == "favourite website":
         print("reddit.com")
-    elif ask.lower() == "favourite drink":
-        print("Monster")
+    elif ask.lower() == "favourite drink and flavours":
+        while True:
+            try:
+                option = int(input("These are my favourite brands please put the number in for the favourite flavours \n1) Monster \n2) Relentless \n3) Reign \n4) Rockstar \n5) Irn Bru Energy \n"))
+                break
+            except ValueError:
+                print("I didn't understand please try again!")
+                continue
+        if option == 1:
+            print("1) Original \n2) The Doctor \n3) Ultra White")
+        elif option == 2:
+            print("1) Origin \n2) Cherry \n3) Sour Twist")
+        elif option == 3:
+            print("1) Melon Mania \n2) Razzleberry \n3) Lemon HDZ")
+        elif option == 4:
+            print("1) BubbleBurst \n2) Blueberry Pomegranit Acid \n3) Mango Loco")
+        elif option == 5:
+            print("1) Irn Bru Energy \n2) Irn Bru Energy Sugar Free")
+        else:
+            print("Sorry I didn't understand please restart and try again!")
     elif ask.lower() == "favourite word":
         print("Blyat")
     elif ask.lower() == "favourite food":
@@ -20,9 +38,9 @@ def master():
         print("Well done you found the secret command! You have the creators respect! :)")
     elif ask.lower() == "test 001":
         print("test is working!")
-    elif ask.lower() == "repeat":
-        repeat = input()
-        print(repeat)
+    elif ask.lower() == "annoying repeat":
+        while True:
+            print("HAHA")
     elif ask.lower() == "favourite parent":
         print("I love them both equally!")
     elif ask.lower() == "chicken":
